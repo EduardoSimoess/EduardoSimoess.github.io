@@ -7,6 +7,7 @@
     <style>
       h1 {
           font-family: Arial, Helvetica, sans-serif;
+          text-decoration: none;
       }  
       h2 {
           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -15,17 +16,32 @@
       body {
           background-color: #BB7782;
           color: aliceblue;
+          text-align: center;
       }
       .Espaçamento {
           line-height: 20px;
           text-decoration: underline;
       }
+      img {
+          border-radius: 50%;
+      }
+      a {
+          color: aliceblue;
+      }
+      #link {
+          text-decoration: none;
+          background-color: gray;
+          padding: 15px 20px;
+          border-radius: 10px;
+      }
+
 
     </style>
 </head>
 
 <body>
-    <h1><strong>Currículo <a href="#Foto de perfil">Eduardo Simões</a></strong></h1>
+    <h1><strong>Currículo <a id="link" href="#Foto de perfil">Eduardo Simões</a></strong></h1>
+    <img id="Foto de perfil" src="Perfil.jpeg" alt="Foto de rosto do desenvolvedor" width="300">
     <h2><em>Informações pessoais</em></h2>
 
     <ul class="Espaçamento">
@@ -41,7 +57,7 @@
         <li><strong>Entendimeto matemático</strong></li>
         <li><strong>Gestão de pessoas</strong></li>
     </ol>
-    <img id="Foto de perfil" src="Perfil.jpeg" alt="Foto de rosto do desenvolvedor" width="300">
+    
 
 </body>
 
