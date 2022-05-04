@@ -47,5 +47,10 @@ h3, h4, .sub-item, ul{
     margin: 10px;
 } 
 li{
-    margin-left: 10px;
+    /* display: flex;
+    align-items: flex-end; */
 }
+/* ul{
+    display: flex;
+    background-color: rgb(2, 255, 79);
+} */
